@@ -1,0 +1,9 @@
+<div id="main-menu-mobile" class="main-menu-mobile">
+  <ul>
+    <li><a href="{{site.baseurl}}/" class="{% if page.url == '/' %}current{% endif %}">Home</a></li>
+    <li><a href="{{site.baseurl}}/aboutus/" class="{% if page.url contains 'aboutus' %}current{% endif %}">About Us</a></li>
+    <li><a href="{{site.baseurl}}/admissions/" class="{% if page.url contains 'admissions' %}current{% endif %}">Admissions</a></li>
+    <li><a href="{{site.baseurl}}/faculty/" class="{% if page.url contains 'faculty' %}current{% endif %}">Faculty</a></li>
+    <li><a href="{{site.baseurl}}/contact/" class="{% if page.url contains 'contact' %}current{% endif %}">Contact</a></li>
+  </ul>
+</div>
